@@ -580,4 +580,49 @@ select:focus {
   font-family: "M PLUS Rounded 1c", Arial, sans-serif;
   color: #fff;
   text-align: center;
+}
+
+.under-construction {
+  font-family: "M PLUS Rounded 1c", Arial, sans-serif;
+  padding: 150px 100px;
+  background-color: #eaf6ff;
+}
+.under-construction .un_contents {
+  display: flex;
+  justify-content: space-between;
+}
+.under-construction .un_contents .un_cont_eyecatch {
+  width: 40%;
+}
+.under-construction .un_contents .un_cont_eyecatch img {
+  max-width: 526px;
+  width: 100%;
+  height: auto;
+}
+.under-construction .un_contents .un_cont_text {
+  width: 60%;
+  margin-top: 60px;
+}
+.under-construction .un_contents .un_cont_text h1 {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.under-construction .un_contents .un_cont_text p {
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+.under-construction .un_contents .un_cont_text .return_btn {
+  padding: 15px 0;
+  text-align: center;
+  display: block;
+  color: #fff;
+  max-width: 430px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "M PLUS Rounded 1c", Arial, sans-serif;
+  border-radius: 10px;
+  background-color: #1e90ff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: all 0.7s;
 }/*# sourceMappingURL=style.css.map */
