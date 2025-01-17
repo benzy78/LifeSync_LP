@@ -1,6 +1,6 @@
 // ctaボタン
 .cta_btn{
-  padding: 20px 0;
+  padding: 15px 0;
   text-align: center;
   display: block;
   color: $BaseColor1;
@@ -21,4 +21,12 @@
     box-shadow: none;
     opacity: 0.7;
   }
+}
+
+.sec_hed{
+  text-align: center;
+  font-size: 30px;
+  font-family: $ff-ja-maru;
+  margin-bottom: 30px;
+  line-height: 1;
 }
