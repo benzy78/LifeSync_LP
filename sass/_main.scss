@@ -1,0 +1,408 @@
+// header
+.header{
+  background-color: $MainColor1;
+  color: $BaseColor1;
+  padding: 30px 0;
+  .inner{
+    display: flex;
+    justify-content: space-between;
+    .header_logo{
+      font-size: 36px;
+      font-family: $ff-en-maru;
+      line-height: 1;
+    }
+    .header_nav{
+      ul{
+        display: flex;
+        li{
+          list-style: none;
+          margin-left: 30px;
+          a{
+            font-size: 20px;
+            display: block;
+            color: $BaseColor1;
+            font-family: $ff-ja-maru;
+          }
+        }
+      }
+    }
+  }
+}
+// header end
+
+// keyvisual
+.keyvisual{
+  background: linear-gradient(to bottom, $MainColor1, $GradationColor);
+  color: $BaseColor1;
+  font-family: $ff-ja-maru;
+  padding-bottom: 130px;
+  .inner{
+    display: flex;
+    justify-content: flex-start;
+    .key_01{
+      margin-top: 100px;
+      margin-right: 60px;
+      h2{
+        font-size: 36px;
+        margin-bottom: 30px;
+      }
+      p{
+        font-size: 24px;
+        margin-bottom: 30px;
+      }
+      .download_btn{
+        margin-bottom: 30px;
+        .app_btn{
+          margin-right: 30px;
+          img{
+            width: 195px;
+            height: 65px;
+          }
+        }
+        .goo_btn{
+          img{
+            width: 195px;
+            height: 65px;
+          }
+        }
+      }
+    }
+    .key_02{
+      img{
+        width: 232px;
+        height: auto;
+        transform: rotate(10deg);
+      }
+    }
+  }
+}
+// keyvisual end
+
+// about
+.about{
+  position: relative;
+  top: -130px;
+  padding: 110px 0 0 0;
+  color: $MainColor3;
+  background-color: $BaseColor1;
+  clip-path: polygon(0% 0%, 100% 25%, 100% 100%, 0% 100%);
+  .inner{
+    display: flex;
+    justify-content: space-between;
+    .about_eyecatch{
+      img{
+        width: 261px;
+        height: 266px;
+      }
+    }
+    .about_contents{
+      max-width: 662px;
+      width: 100%;
+      h2{
+        font-size: 36px;
+        font-family: $ff-en-maru;
+        margin-bottom: 30px;
+        span{
+          font-family: $ff-ja-maru;
+        }
+      }
+      p{
+        font-family: $ff-ja-maru;
+        font-size: 20px;
+        line-height: 2;
+      }
+    }
+  }
+}
+// about end
+
+// feature
+.feature{
+  padding: 60px 0;
+  background-color: $BaseColor3;
+  h2{
+    text-align: center;
+    font-size: 36px;
+    font-family: $ff-en-maru;
+    margin-bottom: 30px;
+      span{
+        font-family: $ff-ja-maru;
+      }
+  }
+  .fea_contents{
+    .fea_content{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 30px;
+      .fea_cont_eyecatch{
+        img{
+          width: 232px;
+          height: auto;
+        }
+      }
+      .fea_cont_text{
+        max-width: 524px;
+        width: 100%;
+        margin-top: 100px;
+        span{
+          background-color: $MainColor1;
+          color: $BaseColor1;
+          padding: 13px 28.5px;
+          border-radius: 100px;
+          font-weight: bold;
+          font-size: 40px;
+          margin-right: 20px;
+        }
+        h3{
+          font-size: 24px;
+          font-family: $ff-ja-maru;
+          margin-bottom: 30px;
+        }
+        ul{
+          li{
+            font-size: 20px;
+            font-family: $ff-ja-maru;
+            line-height: 2;
+          }
+        }
+      }
+    }
+    .fea_content01{
+      .fea_cont_text{
+        margin-right: 60px;
+      }
+    }
+    .fea_content02{
+      .fea_cont_eyecatch{
+        margin-right: 90px;
+      }
+    }
+  }
+}
+// feature end
+
+// voice
+.voice{
+  padding: 60px 0;
+  background-color: $BaseColor1;
+  h2{
+    text-align: center;
+    font-size: 36px;
+    font-family: $ff-ja-maru;
+    margin-bottom: 30px;
+  }
+  .voice_contents{
+    .voice_content{
+      padding: 30px;
+      display: flex;
+      margin-bottom: 30px;
+      background-color: $BaseColor2;
+      border-radius: 10px;
+      border: 1px solid $BaseColor2;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+      .fas{
+        font-size: 100px;
+        margin-right: 30px;
+      }
+      .voice_cont_text{
+        h3{
+          font-size: 24px;
+          font-family: $ff-ja-maru;
+          margin-bottom: 10px;
+        }
+        p{
+          font-size: 20px;
+          font-family: $ff-ja-maru;
+        }
+      }
+    }
+  }
+}
+// voice end
+
+// plan
+.plan{
+  padding: 60px 0;
+  background-color: $BaseColor3;
+  h2{
+    text-align: center;
+    font-size: 36px;
+    font-family: $ff-ja-maru;
+    margin-bottom: 30px;
+  }
+  .plan_contents{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    .plan_content{
+      max-width: 455px;
+      width: 100%;
+      border-radius: 10px;
+      padding: 60px;
+      margin-right: 60px;
+      background: $BaseColor1;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      text-align: center;
+      &:last-child{
+        margin-right: 0;
+      }
+      h3{
+        font-size: 24px;
+        font-family: $ff-ja-maru;
+        margin-bottom: 30px;
+      }
+      p{
+        color: $MainColor1;
+        font-size: 36px;
+        margin-bottom: 30px;
+        font-family: $ff-ja-maru;
+        font-weight: bold;
+      }
+      ul{
+        li{
+          list-style: none;
+          font-size: 20px;
+          font-family: $ff-ja-maru;
+          margin: 0 20px 15px 20px;
+          margin-bottom: 15px;
+          text-align: left;
+          font-weight: bold;
+          &:last-child{
+            margin-bottom: 0;
+          }
+          .fa-circle{
+            font-size: 30px;
+            margin-right: 15px;
+            color: $MainColor1;
+          }
+          .fa-times{
+            font-size: 30px;
+            margin-right: 15px;
+            color: $AccentColor2;
+          }
+        }
+      }
+    }
+  }
+  .cta_btn{
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+// plan end
+
+// question
+.question{
+  padding: 60px 0;
+  background-color: $BaseColor1;
+  h2{
+    text-align: center;
+    font-size: 36px;
+    font-family: $ff-ja-maru;
+    margin-bottom: 30px;
+  }
+  .que_contents{
+    .que_content{
+      position: relative;
+      padding: 30px 60px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      background-color: $BaseColor2;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+      h3{
+        font-size: 24px;
+        font-family: $ff-ja-maru;
+        span{
+          font-size: 32px;
+          color: $MainColor1;
+          margin-right: 15px;
+        }
+      }
+      .fas{
+        font-size: 40px;
+        color: $MainColor3;
+        position: absolute;
+        top: 30px;
+        right: 60px;
+        transition: all 0.5s ease;
+      }
+      p{
+        font-size: 20px;
+        font-family: $ff-ja-maru;
+        padding: 0 90px;
+        margin-top: 15px;
+        display: none;
+      }
+    }
+  }
+}
+
+.acco_btn.active{
+  transform: rotate(180deg);
+}
+// question end
+
+// start
+.start{
+  padding: 60px 0;
+  background-color: $BaseColor3;
+  h2{
+    text-align: center;
+    font-size: 36px;
+    font-family: $ff-ja-maru;
+    margin-bottom: 30px;
+  }
+  .download_btn{
+    margin: 0 auto 30px auto;
+    display: flex;
+    max-width: 440px;
+    width: 100%;
+    .app_btn{
+      margin-right: 30px;
+      display: block;
+      img{
+        width: 195px;
+        height: 65px;
+      }
+    }
+    .goo_btn{
+      img{
+        width: 195px;
+        height: 65px;
+      }
+    }
+  }
+  .cta_btn{
+    margin: 0 auto;
+  }
+}
+// start end
+.footer{
+  background-color: $MainColor3;
+  padding: 60px 0;
+  .footer_contents{
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    li{
+      list-style: none;
+      margin-right: 60px;
+      &:last-child{
+        margin-right: 0;
+      }
+      a{
+        display: block;
+        color: $BaseColor1;
+        font-family: $ff-ja-maru;
+      }
+    }
+  }
+  p{
+    font-size: 20px;
+    font-family: $ff-ja-maru;
+    color: $BaseColor1;
+    text-align: center;
+  }
+}
+// footer end
