@@ -950,6 +950,7 @@ select:focus {
   top: 20px;
   right: 60px;
   transition: all 0.5s ease;
+  cursor: pointer;
 }
 @media (max-width: 768px) {
   .question .que_contents .que_content .fas {
