@@ -22,5 +22,27 @@ document.addEventListener("DOMContentLoaded", () => {
       navLinks.classList.remove("active"); // メニューを閉じる
     });
   });
+
+
+
+  $(document).ready(function () {
+    const $keyvisual = $('.keyvisual .inner');
+
+    // スクロールイベント
+    $(window).on('scroll', function () {
+      const scrollTop = $(window).scrollTop(); // 現在のスクロール位置
+      const windowHeight = $(window).height(); // ウィンドウの高さ
+      const offsetTop = $keyvisual.offset().top; // 要素の位置
+
+      // 要素が画面内に入ったらvisibleクラスを追加
+      if (scrollTop + windowHeight > offsetTop) {
+        $keyvisual.addClass('visible');
+      }
+    });
+
+    // 初期表示でチェック（最初から表示される場合に対応）
+    $(window).trigger('scroll');
+  });
+
 });
 
