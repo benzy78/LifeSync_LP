@@ -435,6 +435,7 @@
           margin-right: 0;
           text-align: center;
           margin: 0 auto 10px auto;
+          font-size: 50px;
         }
       }
       .voice_cont_text{
@@ -743,7 +744,25 @@
 // footer end
 
 
-// under-construction
+// under-construction page
+.header_un{
+  padding: 50px;
+  background-color: $MainColor3;
+  color: $BaseColor1;
+  font-family: $ff-en-maru;
+  @include sp{
+    padding: 20px;
+  }
+  h1{
+    font-size: 30px;
+    @include tab{
+      font-size: 24px;
+    }
+    @include sp{
+      font-size: 20px;
+    }
+  }
+}
 .under-construction{
   font-family: $ff-ja-maru;
   padding: 150px 100px;
@@ -782,7 +801,7 @@
         font-size: 30px;
         margin-bottom: 50px;
         @include sp{
-          font-size: 20px;
+          font-size: 18px;
           margin-bottom: 30px;
         }
       }
