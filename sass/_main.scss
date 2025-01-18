@@ -222,12 +222,12 @@
       @include sp{
         order: 1;
         width: 100%;
-        padding: 10px 50px;
+        padding: 10px 100px;
       }
       img{
         width: 232px;
         height: auto;
-        transform: rotate(0deg);
+        transform: rotate(10deg);
         @include sp{
           width: 100%;
         }
@@ -319,7 +319,7 @@
         @include sp{
           width: 100%;
           order: 1;
-          padding: 0 30px;
+          padding: 0 100px;
           margin-bottom: 20px;
         }
         img{
@@ -353,7 +353,7 @@
           }
           @include sp{
             font-size: 20px;
-            padding: 13px 21px;
+            padding: 5px 13px;
             margin-right: 10px;
           }
         }
