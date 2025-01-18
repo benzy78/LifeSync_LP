@@ -243,6 +243,11 @@ select:focus {
     max-width: 350px;
   }
 }
+@media (max-width: 768px) {
+  .cta_btn {
+    max-width: 100%;
+  }
+}
 
 .btn {
   transition: all 0.5s ease;
@@ -991,7 +996,7 @@ select:focus {
 @media (max-width: 768px) {
   .start .download_btn {
     margin-bottom: 20px;
-    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
   }

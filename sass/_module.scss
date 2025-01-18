@@ -17,6 +17,9 @@
     font-size: 16px;
     max-width: 350px;
   }
+  @include sp{
+    max-width: 100%;
+  }
 }
 
 .btn{
