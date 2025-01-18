@@ -1160,6 +1160,11 @@ select:focus {
   width: 100%;
   height: auto;
 }
+@media (max-width: 768px) {
+  .under-construction .un_contents .un_cont_eyecatch img {
+    max-width: 100%;
+  }
+}
 .under-construction .un_contents .un_cont_text {
   width: 60%;
   margin-top: 60px;
@@ -1168,11 +1173,17 @@ select:focus {
   .under-construction .un_contents .un_cont_text {
     width: 100%;
     margin-top: 0;
+    text-align: center;
   }
 }
 .under-construction .un_contents .un_cont_text h1 {
   font-size: 30px;
   margin-bottom: 50px;
+}
+@media (max-width: 992px) {
+  .under-construction .un_contents .un_cont_text h1 {
+    font-size: 24px;
+  }
 }
 @media (max-width: 768px) {
   .under-construction .un_contents .un_cont_text h1 {
@@ -1208,6 +1219,7 @@ select:focus {
   .under-construction .un_contents .un_cont_text .return_btn {
     font-size: 16px;
     padding: 10px 0;
+    margin: 0 auto;
   }
 }
 
