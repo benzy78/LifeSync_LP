@@ -1106,15 +1106,10 @@ select:focus {
 }
 
 .header_un {
-  padding: 50px;
+  padding: 20px;
   background-color: #2c3e50;
   color: #fff;
   font-family: "Quicksand", "Helvetica Neue", sans-serif;
-}
-@media (max-width: 768px) {
-  .header_un {
-    padding: 20px;
-  }
 }
 .header_un h1 {
   font-size: 30px;
@@ -1132,7 +1127,7 @@ select:focus {
 
 .under-construction {
   font-family: "M PLUS Rounded 1c", Arial, sans-serif;
-  padding: 150px 100px;
+  padding: 100px;
   background-color: #eaf6ff;
 }
 @media (max-width: 768px) {

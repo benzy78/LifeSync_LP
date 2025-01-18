@@ -746,13 +746,10 @@
 
 // under-construction page
 .header_un{
-  padding: 50px;
+  padding: 20px;
   background-color: $MainColor3;
   color: $BaseColor1;
   font-family: $ff-en-maru;
-  @include sp{
-    padding: 20px;
-  }
   h1{
     font-size: 30px;
     @include tab{
@@ -765,7 +762,7 @@
 }
 .under-construction{
   font-family: $ff-ja-maru;
-  padding: 150px 100px;
+  padding: 100px;
   background-color: $BaseColor3;
   @include sp{
     padding: 30px 20px 50px 20px;
