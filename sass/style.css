@@ -1178,7 +1178,7 @@ select:focus {
 }
 .under-construction .un_contents .un_cont_text h1 {
   font-size: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 @media (max-width: 992px) {
   .under-construction .un_contents .un_cont_text h1 {
@@ -1193,7 +1193,7 @@ select:focus {
 }
 .under-construction .un_contents .un_cont_text p {
   font-size: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 @media (max-width: 768px) {
   .under-construction .un_contents .un_cont_text p {
